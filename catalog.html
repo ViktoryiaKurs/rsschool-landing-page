@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог услуг | Легализация в Польше</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="images/guranvi-icon.svg">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="images/guranvi-logo.png" alt="Логотип Guranvi"></a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Услуги</a></li>
+        </ul>
+    </nav>
+    <div class="header-actions">
+        <p>Email: vikakurs1998@gmail.com</p>
+        <p>Telegram: @ViktoryiaKurs</p>
+        <button class="burger-menu" aria-label="Открыть меню"></button>
+        <span></span>
+        <span></span>
+        <span></span>
+        </button>
+        <button id="theme-toggle">Сменить тему</button>
+    </div>
+    </header>
+    <main>
+        <h1>Каталог услуг</h1>
+        <section class="services-filters">
+            <h2>Категории услуг</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn">Все услуги</button>
+                <button class="filter-btn">ВНЖ</button>
+                <button class="filter-btn">ПМЖ</button>
+                <button class="filter-btn">Гражданство</button>
+            </div>
+        </section>
+        <section class ="catalog-grid-section">
+            <h2>Доступные услуги</h2>
+            <div class="catalog-grid">
+                <article class="service-card" data-category="vnzh">
+                    <img src="images/01-vnzh-rabota.png" alt="ВНЖ по работе" class="card-img">
+                    <h3>ВНЖ по работе</h3>
+                    <ul class="service-parameters">
+                        <li><strong>Государственная пошлина: 440 zl</strong></li>
+                        <li><strong>Основание: Наличие трудового договора</strong></li>
+                        <li><strong>Срок рассмотрения: 12 месяцев</strong></li>
+                    </ul>
+                    <button class="card-btn">Подробнее</button>
+                </article>
+                <article class="service-card" data-category="vnzh">
+                    <img src="images/02-vnzh-biznes.png" alt="ВНЖ по бизнесу" class="card-img">
+                    <h3>ВНЖ по бизнесу</h3>
+                    <ul class="service-parameters">
+                        <li><strong>Государственная пошлина: 340 zl</strong></li>
+                        <li><strong>Основание: Наличие бизнеса в Польше</strong></li>
+                        <li><strong>Срок рассмотрения: 12 месяцев</strong></li>
+                    </ul>
+                    <button class="card-btn">Подробнее</button>
+                </article>
+            <article class="service-card" data-category="vnzh">
+                    <img src="images/03-vnzh-semya.png" alt="ВНЖ по воссоединению семьи" class="card-img">
+                    <h3>ВНЖ по воссоединению семьи</h3>
+                    <ul class="service-parameters">
+                        <li><strong>Государственная пошлина: 340 zl</strong></li>
+                        <li><strong>Вы состоите в браке либо являетесь членом семьи с членом, имеющим ВНЖ/ПМЖ/Гражданством Польши</strong></li>
+                        <li><strong>Срок рассмотрения: 12 месяцев</strong></li>
+                    </ul>
+                    <button class="card-btn">Подробнее</button>
+                </article>
+            <article class="service-card" data-category="pmzh">
+                <img src="images/04-karta-rezidenta.png" alt="ПМЖ (карта резидента)" class="card-img">
+                <h3>ПМЖ (карта резидента)</h3>
+                <ul class="service-parameters">
+                    <li><strong>Государственная пошлина: 640 zl</strong></li>
+                    <li><strong>Основание: Легальное пребывание на территории Польши более 5 лет</strong></li>
+                    <li><strong>Срок рассмотрения: 18 месяцев</strong></li>
+                </ul>
+                <button class="card-btn">Подробнее</button>
+            </article>
+            <article class="service-card" data-category="pmzh">
+                <img src="images/05-pmzh-proishozhdenie.png" alt="ПМЖ по польскому происхождению" class="card-img">
+                <h3>ПМЖ по польскому происхождению</h3>
+                <ul class="service-parameters">
+                    <li><strong>Государственная пошлина: 640 zl</strong></li>
+                    <li><strong>Основание: Документальное подтверждение польского происхождения</strong></li>
+                    <li><strong>Срок рассмотрения: 18 месяцев</strong></li>
+                </ul>
+                <button class="card-btn">Подробнее</button>
+            </article>
+            <article class="service-card" data-category="pmzh">
+                <img src="images/06-pmzh-brak.png" alt="ПМЖ по браку с гражданином Польши" class="card-img">
+                <h3>ПМЖ по браку с гражданином Польши</h3>
+                <ul class="service-parameters">
+                    <li><strong>Государственная пошлина: 640 zl</strong></li>
+                    <li><strong>Основание: 3 года брака + 2 года пребывания по ВНЖ на основании по воссоединению семьи с гражданином Польши</strong></li>
+                    <li><strong>Срок рассмотрения: 18 месяцев</strong></li>
+                </ul>
+                <button class="card-btn">Подробнее</button>
+            </article>
+            <article class="service-card" data-category="grazhdanstvo">
+                <img src="images/07-grazhdanstvo-priznanie.png" alt="Гражданство через признание" class="card-img">
+                <h3>Гражданство через признание</h3>
+                <ul class="service-parameters">
+                    <li><strong>Государственная пошлина: 1000 zl</strong></li>
+                    <li><strong>Основание: Легальное пребывание на территории Польши более 3 лет на основании ПМЖ</strong></li>
+                    <li><strong>Срок рассмотрения: 24 месяца</strong></li>
+                </ul>
+                <button class="card-btn">Подробнее</button>
+            </article>
+            <article class="service-card" data-category="grazhdanstvo">
+                <img src="images/08-grazhdanstvo-prezident.png" alt="Гражданство через решение президента" class="card-img">
+                <h3>Гражданство через решение президента</h3>
+                <ul class="service-parameters">
+                    <li><strong>Государственная пошлина: 1669 zl</strong></li>
+                    <li><strong>Основание: Личное прошение на имя президента  республики Польши</strong></li>
+                    <li><strong>Срок рассмотрения: 24 месяца</strong></li>
+                </ul>
+                <button class="card-btn">Подробнее</button>
+            </article>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Guranvi PL. Все права защищены.</p>
+        <p>Сайт является собственностью Guranvi PL</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
